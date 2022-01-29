@@ -8,6 +8,10 @@
     "start": "NODE_ENV=production node server",
     "dev": "nodemon server"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orbonnie/ExpressAPI"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {

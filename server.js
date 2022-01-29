@@ -24,7 +24,7 @@ const server = app.listen(PORT,
   console.log(`Server running in ${process.env.NODE_ENV} mode on port ${PORT}`)
 );
 
-//Handle romise rejection
+//Handle promise rejection
 process.on('UnhandledRejection', (err, promise) => {
   console.log(`Unhandled rejection: ${err.message}`);
   //Close server
